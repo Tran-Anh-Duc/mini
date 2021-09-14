@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<input type="text" id="year">
+<input type="button" onclick="nhap()" value="nhan vao">
+
+
+<script>
+function nhap() {
+    let  a = +document.getElementById('year').value;
+    if (a > 0 && a <= 100 ){
+        alert('năm này thuộc thế kỉ thứ nhất')
+    }
+    if (a > 100 && a <= 200 ){
+        alert('năm này thuộc thế kỉ thứ hai')
+    }
+    if (a > 200 && a <= 300 ){
+        alert('năm này thuộc thế kỉ thứ ba')
+    }
+    if (a > 300 && a <= 400 ){
+        alert('năm này thuộc thế kỉ thứ tư')
+    }
+    if (a > 400 && a <= 500 ){
+        alert('năm này thuộc thế kỉ thứ năm')
+    }
+
+}
+
+
+
+
+
+</script>
+
+</body>
+</html>
